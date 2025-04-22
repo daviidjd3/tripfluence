@@ -3,45 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TripFluence</title>
+  <title>TripFluence | La App Social de Turismo</title>
   <style>
-    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #fff; color: #333; }
-    header { background-color: #121212; color: #fff; padding: 40px 20px; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5em; }
-    header p { margin-top: 10px; font-size: 1.2em; color: #aaa; }
-    .section { padding: 40px 20px; text-align: center; }
-    .section h2 { font-size: 2em; margin-bottom: 20px; color: #1976d2; }
-    .section img { max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 20px 0; }
-    footer { background: #f4f4f4; padding: 20px; text-align: center; color: #666; font-size: 0.9em; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #fff; color: #333; line-height: 1.6; }
+    header { background: linear-gradient(to right, #1d3557, #457b9d); color: white; padding: 40px 20px; text-align: center; }
+    header h1 { font-size: 3em; }
+    header p { font-size: 1.2em; margin-top: 10px; }
+    nav { background: #f4f4f4; padding: 10px 20px; display: flex; justify-content: center; gap: 20px; }
+    nav a { color: #1d3557; text-decoration: none; font-weight: bold; }
+    section { padding: 50px 20px; text-align: center; }
+    section h2 { font-size: 2em; color: #1d3557; margin-bottom: 20px; }
+    section p { max-width: 800px; margin: auto; font-size: 1.1em; }
+    .mockup { width: 80%; max-width: 600px; margin: 30px auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .features { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px; }
+    .feature { width: 250px; background: #f0f0f0; padding: 20px; border-radius: 10px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .feature h3 { color: #457b9d; margin-bottom: 10px; }
+    footer { background: #1d3557; color: white; text-align: center; padding: 30px 20px; }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>TripFluence</h1>
-    <p>Tu nueva red social para viajeros, influencers y amantes del turismo.</p>
-  </header>
+<header>
+  <h1>TripFluence</h1>
+  <p>Explora el mundo, crea contenido y sube en el ranking de viajeros</p>
+</header>
 
-  <div class="section">
-    <h2>Explora destinos con vídeos cortos</h2>
-    <img src="mockup3_phone.png" alt="Demo de la app">
-    <p>Descubre rincones únicos a través de clips creados por otros viajeros. Filtra por ciudad, categoría o popularidad.</p>
+<nav>
+  <a href="#como-funciona">Cómo funciona</a>
+  <a href="#funciones">Funciones</a>
+  <a href="#imagenes">Imágenes</a>
+  <a href="#descarga">Descarga</a>
+</nav>
+
+<section id="como-funciona">
+  <h2>¿Qué es TripFluence?</h2>
+  <p>Una red social para viajeros que permite compartir vídeos cortos de destinos, experiencias y consejos. Con rankings, puntuaciones por ciudad y premios para los mejores creadores de contenido.</p>
+</section>
+
+<section id="funciones">
+  <h2>Funciones destacadas</h2>
+  <div class="features">
+    <div class="feature">
+      <h3>Ranking en tiempo real</h3>
+      <p>Las ciudades y atracciones más populares actualizadas cada hora, gracias al contenido generado.</p>
+    </div>
+    <div class="feature">
+      <h3>Perfil viajero</h3>
+      <p>Cada usuario tiene una puntuación global y local, según el impacto de sus vídeos.</p>
+    </div>
+    <div class="feature">
+      <h3>Interacción rápida</h3>
+      <p>Desliza como TikTok, comenta, guarda y comparte destinos en segundos.</p>
+    </div>
+    <div class="feature">
+      <h3>Filtros inteligentes</h3>
+      <p>Explora por tipo de viaje: naturaleza, cultura, gastronomía, low cost y más.</p>
+    </div>
   </div>
+</section>
 
-  <div class="section">
-    <h2>Ranking por ciudad y experiencias</h2>
-    <img src="main/mockup2.jpg" alt="Ranking por ciudad">
-    <p>TripFluence genera automáticamente un ranking con los lugares mejor valorados en cada ciudad, gracias al contenido real de los usuarios.</p>
-  </div>
+<section id="imagenes">
+  <h2>Imágenes de la app</h2>
+  <img src="images/mockup4_summary.png" alt="Ranking de Ciudades" class="mockup" alt="Perfil del Viajero" class="mockup" alt="Explorador de Destinos" class="mockup">
+</section>
 
-  <div class="section">
-    <h2>Disponible pronto en App Store y Google Play</h2>
-    <p>Síguenos para estar al tanto del lanzamiento.</p>
-  </div>
+<section id="descarga">
+  <h2>Disponible muy pronto</h2>
+  <img src="images/mockup3_phone.png" alt="Inicio TripFluence" class="mockup">
+  <p>La app estará en iOS y Android. ¡Suscríbete para no perdértela!</p>
+</section>
 
-  <footer>
-    &copy; 2025 TripFluence. Todos los derechos reservados.
-  </footer>
+<footer>
+  &copy; 2025 TripFluence · Diseñado con pasión para los viajeros del mundo
+</footer>
 
 </body>
 </html>
